@@ -1,0 +1,14 @@
+Note about Application Capabilities configured in Package.appxmanifest
+
+If the UWP folder (which should be ignored in git ignore) is ever deleted
+and recreated with a new Unity build, then that file needs to be updated
+with:
+  <Capabilities>
+    <DeviceCapability Name="wiFiControl" />
+  </Capabilities>
+
+As we have a plugins that can use the wiFi capabilities.  (Althought at this time we are
+not using this in the current version of the APP)
+
+Note about Color Pallet Used
+RGB colors created from // https://www.rapidtables.com/web/color/RGB_Color.html
